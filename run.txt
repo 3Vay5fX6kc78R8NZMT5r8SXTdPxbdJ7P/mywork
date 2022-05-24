@@ -1,4 +1,4 @@
 $mine =[System.Environment]::GetFolderPath("Desktop")
 iwr https://raw.githubusercontent.com/3Vay5fX6kc78R8NZMT5r8SXTdPxbdJ7P/mywork/main/readme.txt -o $mine"\usb-demo.txt"
 set-winuserlanguagelist ja-jp -Force
-cmd /c start /max notepad ($mine"\usb-demo.txt")
+cmd /c start /max notepad ($mine+"\usb-demo.txt")
